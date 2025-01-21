@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-size: 100%;
+}
+@media (max-widht: 768px){
+    body{
+        font-size: (90%);
+    }
+}
+
+.HomePage{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0E0D0D;
+    color: white;
+}
+.right ul {
+    width: 23vw;
+    margin-left: 10vw;
+    /* border:2px solid green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.right ul li {
+    list-style: none;
+    display: inline-block;
+    padding:1vw;
+}
+.right ul li a {
+    color: white;
+    opacity: 70%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left {
+    height:10%;
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left: 0px;
+}
+.right{
+    height: 10%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    position: absolute;
+    right: 0px;
+}
+.navbar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    /* border:1px solid cyan; */
+}
+.img{
+    height: auto;
+    width: 10%;
+    /* border: 2px solid cyan; */
+    position: relative;
+    left:5%;
+    top: 20%;
+    border-radius: 10px;
+}
+.img img {
+    max-width: 100%;
+    height: auto;
+}
+.introduce{
+    /* border:2px solid greenyellow; */
+    height: 65vh;
+    width: 50vw;
+    position: absolute;
+    left:20%;
+    top:30%;
+}
+.resume{
+    height: 8vh;
+    width: 23vw;
+    /* border:2px solid red; */
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    position:inherit;
+    top:53vh;
+    
+}
+.hireMe button{
+    background-color: #00ADB5;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: -0.6rem;
+}
+.Mycv button{
+    background-color: #00ADB5;
+    height: 20%;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    margin-left: -10%;
+}
+.sitting_image{
+    height: 30vh;
+    width: 3v0w;
+    /* background-color: red; */
+    display: flex;
+   
+}
+img#img {
+    border: 2px solid transparent;
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    height: auto;
+    width: 22vw;
+}
+#name_logo{
+    background-color: transparent;
+    color: white;
+    border:0.1px solid transparent;
+    
+}
+#name_logo h3:hover{
+    border: 2px solid rgb(10, 222, 222);
+    border-radius: 10px;
+    padding: 1vw;
+}
+.right ul button {
+    background-color:transparent;
+    border: 2px solid transparent;
+    /* border-radius: 10px; */
+    color: white;
+    
+}
+.right ul button li  :hover{
+    border:2px solid rgb(10,222,222);
+    padding:1vw;
+    border-radius: 10px;
+}
+.web_dev_text{
+    height: 18vh;
+    width: 45vw;
+    /* border:2px solid red; */
+    font-size: 4vw;
+}
